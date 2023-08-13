@@ -1,0 +1,20 @@
+
+.myClass {
+    text-align:center;
+}
+
+#myId {
+    background-color: #09C;
+}
+
+p {
+    text-decoration: underline;
+}
+
+.secondClass {
+    background-color:rgb(17, 209, 59);
+}
+
+#secondId {
+    background-color:rgb(206, 228, 15);
+}
