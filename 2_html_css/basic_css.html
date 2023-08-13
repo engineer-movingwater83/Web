@@ -13,63 +13,11 @@
     <p> HTML can has not only Tag, but also Class and ID. </p>
     <p> For main reason why make Class and ID are usually that can be used in CSS. </p>
     <ol> 
-        <li> Tag Selector        
-            <p> HTML : 
-                <pre> &lt;p&gt; This is p tag. &lt;&sol;p&gt;</pre>
-            </p>
-            <p> CSS : 
-                <pre>p &#123; </pre>
-                <pre>   background-color: #09C&#59; </pre>
-                <pre>&#125;</pre>
-            </p>
-            
-        </li>
-        <li> Class Selector        
-            <p> HTML :
-                <pre> &lt;p class="myClass"&gt; This is Class &lt;&sol;p&gt;</pre>
-            </p>
-            <p> CSS : 
-                <pre>.myClass &#123; </pre>
-                <pre>   text-align: center&#59; </pre>
-                <pre>&#125;</pre>
-            </p>
-            <p> Here is the real example. </p>
-            <p class="myClass"> This is Class </p>
-        </li>
-        <li> ID Selector        
-            <p> HTML :
-                <pre> &lt;p id="myId"&gt; This is Id &lt;&sol;p&gt;</pre>
-            </p>
-            <p> CSS : 
-                <pre>#myId &#123; </pre>
-                <pre>   background-color: #09C&#59; </pre>
-                <pre>&#125;</pre>
-            </p>
-            <p> Here is the real example. </p>
-            <p id="myId"> This is Id </p>
-        </li>
-        <li> tag, CSS, ID Selector        
-            <p> HTML :
-                <pre> &lt;p class="secondClass" id="secondId"&gt; This is p tag and secondClass and secondId &lt;&sol;p&gt;</pre>
-                <pre> &lt;p class="secondClass"&gt; This is p tag and secondClass&lt;&sol;p&gt;</pre>
-                <pre> &lt;p&gt; This is p tag &lt;&sol;p&gt;</pre>
-            </p>
-            <p> CSS : 
-                <pre>p &#123; </pre>
-                <pre>   text-decoration: underline&#59; </pre>
-                <pre>&#125;</pre>
-                <pre>.secondClass &#123; </pre>
-                <pre>   background-color: rgb(17, 209, 59)&#59; </pre>
-                <pre>&#125;</pre>
-                <pre>#secondId &#123; </pre>
-                <pre>   background-color:rgb(206, 228, 15)&#59; </pre>
-                <pre>&#125;</pre>
-            </p>
-            <p> Here is the real example. </p>
+        <li> 
+            <p class="myClass"> This is Class which class name is myClass </p>
+            <p id="myId"> This is Id which Id name is myId </p>
             <p class="secondClass" id="secondId"> This is p tag and secondClass and secondId </p>
-            <p class="secondClass"> This is p tag and secondClass </p>
-            <p> This is &#34;p tag&#34;</p>
-            <p> As a result, you can know that priority is Id first and Class, and tag is the least. </p>
+            <p class="secondClass"> This is p tag and secondClass </p>            
         </li>
     </ol>   
 </body>
